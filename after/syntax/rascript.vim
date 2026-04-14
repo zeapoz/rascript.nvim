@@ -5,7 +5,9 @@ syntax match Comment "//.*"
 
 " Keywords
 syntax keyword Keyword if else for in return function class
-syntax keyword Keyword achievement achievement_set leaderboard rich_presence rich_presence_display rich_presence_value rich_presence_lookup rich_presence_ascii_string_lookup rich_presence_macro rich_presence_conditional_display
+syntax keyword Keyword achievement achievement_set leaderboard
+syntax keyword Keyword rich_presence rich_presence_display rich_presence_value rich_presence_lookup
+syntax keyword Keyword rich_presence_ascii_string_lookup rich_presence_macro rich_presence_conditional_display
 
 " Trigger functions
 syntax keyword Structure repeated once tally never unless measured trigger_when disable_when
