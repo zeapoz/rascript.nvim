@@ -26,8 +26,8 @@ syntax keyword Type ascii_string_equals unicode_string_equals
 syntax match String '"[^"]*"'
 
 " Numbers
-syntax match Number "0x[0-9A-Fa-f]\+"
-syntax match Number "\<\d\+>"
+syntax match Number "\<\d\+"
+syntax match Number "\<0x[0-9A-Fa-f]\+"
 
 " Variables
 syntax match Identifier "\$[0-9A-Za-z]\+"
